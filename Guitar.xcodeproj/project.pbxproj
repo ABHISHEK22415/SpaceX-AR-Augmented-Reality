@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA899AA92A3AFB13007836D5 /* GuitarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA899AA82A3AFB13007836D5 /* GuitarApp.swift */; };
+		EA899AAB2A3AFB13007836D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA899AAA2A3AFB13007836D5 /* ContentView.swift */; };
+		EA899AAD2A3AFB15007836D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA899AAC2A3AFB15007836D5 /* Assets.xcassets */; };
+		EA899AB02A3AFB15007836D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA899AAF2A3AFB15007836D5 /* Preview Assets.xcassets */; };
+		EA899ABA2A3AFB15007836D5 /* GuitarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA899AB92A3AFB15007836D5 /* GuitarTests.swift */; };
+		EA899AC42A3AFB15007836D5 /* GuitarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA899AC32A3AFB15007836D5 /* GuitarUITests.swift */; };
+		EA899AC62A3AFB15007836D5 /* GuitarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA899AC52A3AFB15007836D5 /* GuitarUITestsLaunchTests.swift */; };
+		EA899AD32A3B0311007836D5 /* experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = EA899AD22A3B0311007836D5 /* experience.rcproject */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA899AB62A3AFB15007836D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA899A9D2A3AFB13007836D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA899AA42A3AFB13007836D5;
+			remoteInfo = Guitar;
+		};
+		EA899AC02A3AFB15007836D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA899A9D2A3AFB13007836D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA899AA42A3AFB13007836D5;
+			remoteInfo = Guitar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA899AA52A3AFB13007836D5 /* Guitar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Guitar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA899AA82A3AFB13007836D5 /* GuitarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarApp.swift; sourceTree = "<group>"; };
+		EA899AAA2A3AFB13007836D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EA899AAC2A3AFB15007836D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA899AAF2A3AFB15007836D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EA899AB52A3AFB15007836D5 /* GuitarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuitarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA899AB92A3AFB15007836D5 /* GuitarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarTests.swift; sourceTree = "<group>"; };
+		EA899ABF2A3AFB15007836D5 /* GuitarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuitarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA899AC32A3AFB15007836D5 /* GuitarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarUITests.swift; sourceTree = "<group>"; };
+		EA899AC52A3AFB15007836D5 /* GuitarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EA899AD22A3B0311007836D5 /* experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = experience.rcproject; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA899AA22A3AFB13007836D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA899AB22A3AFB15007836D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA899ABC2A3AFB15007836D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA899A9C2A3AFB13007836D5 = {
+			isa = PBXGroup;
+			children = (
+				EA899AA72A3AFB13007836D5 /* Guitar */,
+				EA899AB82A3AFB15007836D5 /* GuitarTests */,
+				EA899AC22A3AFB15007836D5 /* GuitarUITests */,
+				EA899AA62A3AFB13007836D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA899AA62A3AFB13007836D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA899AA52A3AFB13007836D5 /* Guitar.app */,
+				EA899AB52A3AFB15007836D5 /* GuitarTests.xctest */,
+				EA899ABF2A3AFB15007836D5 /* GuitarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA899AA72A3AFB13007836D5 /* Guitar */ = {
+			isa = PBXGroup;
+			children = (
+				EA899AA82A3AFB13007836D5 /* GuitarApp.swift */,
+				EA899AAA2A3AFB13007836D5 /* ContentView.swift */,
+				EA899AD22A3B0311007836D5 /* experience.rcproject */,
+				EA899AAC2A3AFB15007836D5 /* Assets.xcassets */,
+				EA899AAE2A3AFB15007836D5 /* Preview Content */,
+			);
+			path = Guitar;
+			sourceTree = "<group>";
+		};
+		EA899AAE2A3AFB15007836D5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EA899AAF2A3AFB15007836D5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EA899AB82A3AFB15007836D5 /* GuitarTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA899AB92A3AFB15007836D5 /* GuitarTests.swift */,
+			);
+			path = GuitarTests;
+			sourceTree = "<group>";
+		};
+		EA899AC22A3AFB15007836D5 /* GuitarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA899AC32A3AFB15007836D5 /* GuitarUITests.swift */,
+				EA899AC52A3AFB15007836D5 /* GuitarUITestsLaunchTests.swift */,
+			);
+			path = GuitarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA899AA42A3AFB13007836D5 /* Guitar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA899AC92A3AFB15007836D5 /* Build configuration list for PBXNativeTarget "Guitar" */;
+			buildPhases = (
+				EA899AA12A3AFB13007836D5 /* Sources */,
+				EA899AA22A3AFB13007836D5 /* Frameworks */,
+				EA899AA32A3AFB13007836D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Guitar;
+			productName = Guitar;
+			productReference = EA899AA52A3AFB13007836D5 /* Guitar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA899AB42A3AFB15007836D5 /* GuitarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA899ACC2A3AFB15007836D5 /* Build configuration list for PBXNativeTarget "GuitarTests" */;
+			buildPhases = (
+				EA899AB12A3AFB15007836D5 /* Sources */,
+				EA899AB22A3AFB15007836D5 /* Frameworks */,
+				EA899AB32A3AFB15007836D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA899AB72A3AFB15007836D5 /* PBXTargetDependency */,
+			);
+			name = GuitarTests;
+			productName = GuitarTests;
+			productReference = EA899AB52A3AFB15007836D5 /* GuitarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA899ABE2A3AFB15007836D5 /* GuitarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA899ACF2A3AFB15007836D5 /* Build configuration list for PBXNativeTarget "GuitarUITests" */;
+			buildPhases = (
+				EA899ABB2A3AFB15007836D5 /* Sources */,
+				EA899ABC2A3AFB15007836D5 /* Frameworks */,
+				EA899ABD2A3AFB15007836D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA899AC12A3AFB15007836D5 /* PBXTargetDependency */,
+			);
+			name = GuitarUITests;
+			productName = GuitarUITests;
+			productReference = EA899ABF2A3AFB15007836D5 /* GuitarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA899A9D2A3AFB13007836D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					EA899AA42A3AFB13007836D5 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					EA899AB42A3AFB15007836D5 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = EA899AA42A3AFB13007836D5;
+					};
+					EA899ABE2A3AFB15007836D5 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = EA899AA42A3AFB13007836D5;
+					};
+				};
+			};
+			buildConfigurationList = EA899AA02A3AFB13007836D5 /* Build configuration list for PBXProject "Guitar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA899A9C2A3AFB13007836D5;
+			productRefGroup = EA899AA62A3AFB13007836D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA899AA42A3AFB13007836D5 /* Guitar */,
+				EA899AB42A3AFB15007836D5 /* GuitarTests */,
+				EA899ABE2A3AFB15007836D5 /* GuitarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA899AA32A3AFB13007836D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA899AB02A3AFB15007836D5 /* Preview Assets.xcassets in Resources */,
+				EA899AAD2A3AFB15007836D5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA899AB32A3AFB15007836D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA899ABD2A3AFB15007836D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA899AA12A3AFB13007836D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA899AAB2A3AFB13007836D5 /* ContentView.swift in Sources */,
+				EA899AA92A3AFB13007836D5 /* GuitarApp.swift in Sources */,
+				EA899AD32A3B0311007836D5 /* experience.rcproject in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA899AB12A3AFB15007836D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA899ABA2A3AFB15007836D5 /* GuitarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA899ABB2A3AFB15007836D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA899AC62A3AFB15007836D5 /* GuitarUITestsLaunchTests.swift in Sources */,
+				EA899AC42A3AFB15007836D5 /* GuitarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA899AB72A3AFB15007836D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA899AA42A3AFB13007836D5 /* Guitar */;
+			targetProxy = EA899AB62A3AFB15007836D5 /* PBXContainerItemProxy */;
+		};
+		EA899AC12A3AFB15007836D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA899AA42A3AFB13007836D5 /* Guitar */;
+			targetProxy = EA899AC02A3AFB15007836D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EA899AC72A3AFB15007836D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA899AC82A3AFB15007836D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA899ACA2A3AFB15007836D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Guitar/Preview Content\"";
+				DEVELOPMENT_TEAM = 4G3M5ASA8A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "app needs camera permission to check the augmented reality experience";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftrealityxr.Guitar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA899ACB2A3AFB15007836D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Guitar/Preview Content\"";
+				DEVELOPMENT_TEAM = 4G3M5ASA8A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "app needs camera permission to check the augmented reality experience";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftrealityxr.Guitar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EA899ACD2A3AFB15007836D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftrealityxr.GuitarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Guitar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Guitar";
+			};
+			name = Debug;
+		};
+		EA899ACE2A3AFB15007836D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftrealityxr.GuitarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Guitar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Guitar";
+			};
+			name = Release;
+		};
+		EA899AD02A3AFB15007836D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftrealityxr.GuitarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Guitar;
+			};
+			name = Debug;
+		};
+		EA899AD12A3AFB15007836D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftrealityxr.GuitarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Guitar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA899AA02A3AFB13007836D5 /* Build configuration list for PBXProject "Guitar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA899AC72A3AFB15007836D5 /* Debug */,
+				EA899AC82A3AFB15007836D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA899AC92A3AFB15007836D5 /* Build configuration list for PBXNativeTarget "Guitar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA899ACA2A3AFB15007836D5 /* Debug */,
+				EA899ACB2A3AFB15007836D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA899ACC2A3AFB15007836D5 /* Build configuration list for PBXNativeTarget "GuitarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA899ACD2A3AFB15007836D5 /* Debug */,
+				EA899ACE2A3AFB15007836D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA899ACF2A3AFB15007836D5 /* Build configuration list for PBXNativeTarget "GuitarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA899AD02A3AFB15007836D5 /* Debug */,
+				EA899AD12A3AFB15007836D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA899A9D2A3AFB13007836D5 /* Project object */;
+}

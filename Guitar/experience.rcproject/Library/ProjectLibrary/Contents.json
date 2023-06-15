@@ -1,0 +1,22 @@
+[
+  {
+    "libraryIdentifier" : "67269e2fe922c7eaa1d2dbe33642b735",
+    "format" : "model",
+    "displayName" : "CosmonautSuit_en.reality"
+  },
+  {
+    "libraryIdentifier" : "7f893b82c96f3b7a68321f9d0dec30c1",
+    "format" : "model",
+    "displayName" : "sneaker_airforce.usdz"
+  },
+  {
+    "libraryIdentifier" : "11685f9e3491e95933aa543c150cf99a",
+    "format" : "model",
+    "displayName" : "LunarRover_English.reality"
+  },
+  {
+    "libraryIdentifier" : "69e9a494942b17db16ec53176e1b5e0e",
+    "format" : "model",
+    "displayName" : "hab_en.reality"
+  }
+]
